@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: heroku
+  api_key:
+    secure: Gs6O0mzSHm5bvOErxTu78sNjes+DgK7KPSLwAEcMxz0nI9lA1WHnMJ2HNa2BZA+SAZ336Wbjhn/T0aS+1NbYrmhXOtbh7sDGR7O1fKVB0UaOnFbWhh46JMgka/D/zOQQdkB0BKHAn9onYVyrWRw2vgU4Jt7D4tUJisYdD9oZ9DElMoJ5DcJ6W6F9P6RZ3IMCR1n/gRkVM17wFYygo0N1RCjd5s8FkRP/QJWDQKprnlnnxlpS1sGoKgMyGDmD12k3jLTHqINq//DcZRj7xf8aKvdjgqbDrVAUaW5LDLnrtu7igqCVBpCQ5HU0veyj7dhXAx/EREtKkffEHLC/FAoAHIedfJok/c1+dvgikcAgQGlSMjDB9p4zOUotE5rGnOg5udS/zQfe33SSuEx4VAyCb6ZGGw6sNbA+WPJbeKwybZXoxAySyK3e3YPO85/hre77ssAadRzpil5yRTbctApMD2Ds4+JXrITMqs5wmb0UKg0992XOUrJfg11wn2Sh6lsmMkivJnvEdpuzS4b8QfrmN0MMZPNPVPUT514Lx1jGga2g+8BfidGRxjVMSxZIjHN3XnaB+OskwWvt4e9CLcv+XuIrHb4G00PTorYJGNH6IkPok+TT236OjQqYDppyBLaWgXtUW1jbvQvCJxWBjgzs26vNuPxlIahf03bLWJ08pVM=
+  app: adshunter
+  on:
+    repo: hittgv/ads-hunter-feature
