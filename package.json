@@ -11,7 +11,7 @@
   "author": "Manthan Dave <manthanhd@live.com>",
   "license": "MIT",
   "dependencies": {
-    "ads-finder": "^1.0.1",
+    "ads-finder": "git@github.com:hittgv/ads-finder.git#73bbb81",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "morgan": "^1.8.1",
